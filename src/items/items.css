@@ -1,0 +1,13 @@
+.all-items{
+    height: 450px;
+    width:500px;
+    border: 1px solid red;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: wheat;
+}
+.img-frame img{
+    width: 100%;
+    height: 300px;
+}
