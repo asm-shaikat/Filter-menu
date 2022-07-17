@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import data from './data';
 import Items from './items/Items';
-import {Link} from 'react-router-dom';
-import Navbar from './navbar/Navbar';
 import Category from './category/Category';
 const allcategories = ['all',...new Set(data.map((cat) => cat.category))];
 const Home = () => {
